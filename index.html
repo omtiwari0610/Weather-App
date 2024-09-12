@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="search">
+        <input id = "ip" placeholder= "Enter Your Location">
+        <i id="i1" class="fa-solid fa-magnifying-glass"></i>
+        <div class="error">
+            <h1>Invalid City Name!!</h1>
+            <img src="404.png">
+        </div>
+        <div class="desc">
+            <img id="image" src="cloud.png">
+            <p class="temp">0°C</p>
+            <p class = "cmt">Light rain</p>
+        </div>
+        <div class="details">
+            <div class="box1">
+                <i class="fa-solid fa-droplet"></i>
+                <p id="hum" class="desc1">45%</p>
+                <p class="desc2">Humidity</p>
+            </div>
+            <div class="box2">
+                <i class="fa-solid fa-wind"></i>
+                <p id="speed" class="desc1">12 Km/H</p>
+                <p class="desc2">Wind Speed</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/518283c99e.js" crossorigin="anonymous"></script>
+</body>
+</html>
